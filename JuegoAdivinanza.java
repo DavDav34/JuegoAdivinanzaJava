@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class JuegoAdivinanza {
     public static void main(String[] args) {
     // aqui se genera el numero aleatorio
-        
+        Random aleatorio = new Random();
+        int numeroBuscado = aleatorio.nextInt(100) + 1; // Entre 1 y 100
         
     // parametros par la logica
         int intentosMaximos = 10;
@@ -20,6 +21,19 @@ public class JuegoAdivinanza {
         
 	//while
         while(intentosRealizados < intentosMaximos) {
-            
-		}
+                System.out.print("\nIntento " + (intentosRealizados + 1) + ": ");
+                int numeroIngresado = scanner.nextInt();
+                
+                if(numeroIngresado < 1 || numeroIngresado > 100) {
+                    System.out.println("¡Numero invalido! Debe estar entre 1 y 100");
+                    continue;
+                }
+                
+                intentosRealizados++;
+                
+                if(numeroIngresado == numeroBuscado ) {
+                    System.out.println("\n¡Felicidades! Adivinaste el numero en " + intentosRealizados + " intentos");
+                    return;
+                }
+        }
       
