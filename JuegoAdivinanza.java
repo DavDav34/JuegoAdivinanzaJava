@@ -36,4 +36,19 @@ public class JuegoAdivinanza {
                     return;
                 }
         }
-      
+       // Logica de pistas
+       if(intentosRealizados == intentosMaximos) {
+        System.out.println("\n¡se acabaron los intentos perdiste :( !");
+        System.out.println("El numero era: " + numeroBuscado);
+        return;
+    }
+    
+    if(numeroIngresado < numeroBuscado) {
+        System.out.println("El numero es mayor");
+    } else {
+        System.out.println("El numero es menor");
+    }
+    
+    System.out.println("Intentos restantes: " + (intentosMaximos - intentosRealizados));
+       }
+    }
