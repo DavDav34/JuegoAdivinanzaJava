@@ -52,3 +52,4 @@ public class JuegoAdivinanza {
     System.out.println("Intentos restantes: " + (intentosMaximos - intentosRealizados));
        }
     }
+}
