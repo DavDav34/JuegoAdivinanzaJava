@@ -35,7 +35,7 @@ public class JuegoAdivinanza {
                     System.out.println("\n¡Felicidades! Adivinaste el numero en " + intentosRealizados + " intentos");
                     return;
                 }
-        }
+        
        // Logica de pistas
        if(intentosRealizados == intentosMaximos) {
         System.out.println("\n¡se acabaron los intentos perdiste :( !");
