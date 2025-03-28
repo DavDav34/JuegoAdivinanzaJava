@@ -1,0 +1,45 @@
+HOLAaaa VAMOS A JUGAR
+Adivina un numero entre 1 y 100
+Tienes 10 intentos
+
+Intento 1: 1
+El numero es mayor
+Intentos restantes: 9
+
+Intento 2: 2
+El numero es mayor
+Intentos restantes: 8
+
+Intento 3: 3
+El numero es mayor
+Intentos restantes: 7
+
+Intento 4: 4
+El numero es mayor
+Intentos restantes: 6
+
+Intento 5: 5
+El numero es mayor
+Intentos restantes: 5
+
+Intento 6: 6
+El numero es mayor
+Intentos restantes: 4
+
+Intento 7: 7
+El numero es mayor
+Intentos restantes: 3
+
+Intento 8: 8
+El numero es mayor
+Intentos restantes: 2
+
+Intento 9: 9
+El numero es mayor
+Intentos restantes: 1
+
+Intento 10: 10
+
+¡se acabaron los intentos perdiste :( !
+El numero era: 21
+BUILD SUCCESSFUL (total time: 14 seconds)
